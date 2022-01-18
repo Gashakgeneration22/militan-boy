@@ -450,7 +450,7 @@ wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/set-b
 #install WEBSOCKET
 wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/edu.sh && chmod +x edu.sh && ./edu.sh
 wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
-#wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
+#wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
