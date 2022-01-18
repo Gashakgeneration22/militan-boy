@@ -432,24 +432,24 @@ clear
 
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install sstp
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install v2ray
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #install trojan-go
 #wget https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/men/ins-trojango.sh && dos2unix ins-trojango.sh && chmod +x ins-trojango.sh && ./ins-trojango.sh
 #install WEBSOCKET
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/edu.sh && chmod +x edu.sh && ./edu.sh
-wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
 #wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
@@ -477,7 +477,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
