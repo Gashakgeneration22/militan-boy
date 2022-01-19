@@ -11,13 +11,13 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/YakkoXCode"
+echo "Telegram t.me/Jojo22XCode"
 echo "WA 083803284713"
 rm -f setup.sh
 exit 0
@@ -32,7 +32,7 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ifconfig.me/ip )
 echo -e ""
-echo -e "YakkoXCode SSH"
+echo -e "Jojo22XCode SSH"
 echo -e ""
 echo -e "$m-----------------------------------------------------------------$y"
 echo -e "$m1 IP Vps       : $IPVPS"
