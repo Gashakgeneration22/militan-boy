@@ -9,8 +9,8 @@ chmod +x /usr/local/bin/edu-ssh
 # Installing Service
 cat > /etc/systemd/system/edussh-nontls.service << END
 [Unit]
-Description=Ssh Websocket By YakkoXCode
-Documentation=https://t.me/YakkoXCode
+Description=Ssh Websocket By Jojo22XCode
+Documentation=https://t.me/Jojo22XCode
 After=network.target nss-lookup.target
 
 [Service]
@@ -33,7 +33,7 @@ systemctl restart edussh-nontls
 # Installing Service
 cat > /etc/systemd/system/edussh-tls.service << END
 [Unit]
-Description=Ssh Websocket By Geo Gabut
+Description=Ssh Websocket By Jojo22XCode
 Documentation=https://t.me/sampiiiiu
 After=network.target nss-lookup.target
 
@@ -65,7 +65,7 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Ovpn Websocket By GEO GABUT
+Description=Ovpn Websocket By Jojo22XCode
 Documentation=https://t.me/sampiiiiu
 After=network.target nss-lookup.target
 
@@ -94,4 +94,4 @@ echo -e "PORT SSH NONTLS : 2095"
 echo -e "PORT SSH TLS         : 443"
 echo -e "PORT OVPN WS B    : 2082"
 echo -e "==============================="
-echo -e "Script By YakkoXCode"
+echo -e "Script By Jojo22XCode"
