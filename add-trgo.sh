@@ -50,4 +50,4 @@ echo -e "Expired    = $exp"
 echo -e "===================================" | lolcat
 echo -e "Link TROJAN-GO : ${trojangolink}"
 echo -e "===================================" | lolcat
-echo -e "Script By SSH YAKKOXCODE NETWORK" 
+echo -e "Script By SSH JOJO22XCODE NETWORK" 
