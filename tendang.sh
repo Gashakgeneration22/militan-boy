@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : YakkoXCode
+# Script by : Jojo22XCode
 #!/bin/bash
 clear
 MAX=1
