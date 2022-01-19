@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipv4.wildyproject.com);
-echo "Script By YakkoXCode"
+echo "Script By Jojo22XCode"
 clear
 uuid=$(cat /etc/trojan/uuid.txt)
 source /var/lib/premium-script/ipvps.conf
