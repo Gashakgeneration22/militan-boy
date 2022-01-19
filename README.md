@@ -1,1 +1,1 @@
-By.Joesatria22
+©Joesatria22
