@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# By SSH SEDANG
+# By Jojo22XCode
 # ==================================================
 
 
@@ -89,10 +89,10 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O add-wg "https://raw.githubusercontent.com/YakkoRasZ144/gaspoll/main/add-wg.sh"
-wget -O del-wg "https://raw.githubusercontent.com/YakkoRasZ144/gaspoll/main/del-wg.sh"
-wget -O cek-wg "https://raw.githubusercontent.com/YakkoRasZ144/gaspoll/main/cek-wg.sh"
-wget -O renew-wg "https://raw.githubusercontent.com/YakkoRasZ144/gaspoll/main/renew-wg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/del-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/cek-wg.sh"
+wget -O renew-wg "https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/renew-wg.sh"
 chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg
