@@ -4,7 +4,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -51,4 +51,4 @@ echo " ==========================" | lolcat
 echo " Client Name : $user"
 echo " Expired On  : $exp"
 echo " ==========================" | lolcat
-echo " Script By SSH YAKKOXCODE NETWORK"
+echo " Script By SSH Jojo22XCode NETWORK"
