@@ -28,9 +28,9 @@ read -p "Expired (days): " masaaktif
 exp=`date -d "$masaaktif days" +"%d-%m-%Y"`
 created=`date -d "0 days" +"%d-%m-%Y"`
 sed -i '/#tls$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"2"',"email": "'""$user""'"' /etc/v2ray/config.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/config.json
 sed -i '/#none$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"2"',"email": "'""$user""'"' /etc/v2ray/none.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/none.json
 cat>/etc/v2ray/$user-tls.json<<EOF
       {
       "v": "2",
