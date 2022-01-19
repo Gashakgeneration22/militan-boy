@@ -41,7 +41,7 @@ cat> /etc/v2ray/config.json << END
         "clients": [
           {
             "id": "${uuid}",
-            "alterId": 2
+            "alterId": 0
 #tls
           }
         ]
@@ -58,7 +58,7 @@ cat> /etc/v2ray/config.json << END
           ]
         },
         "wsSettings": {
-          "path": "/geo",
+          "path": "/Jojo",
           "headers": {
             "Host": ""
           }
@@ -138,7 +138,7 @@ cat> /etc/v2ray/none.json << END
         "clients": [
           {
             "id": "${uuid}",
-            "alterId": 2
+            "alterId": 0
 #none
           }
         ]
@@ -146,7 +146,7 @@ cat> /etc/v2ray/none.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/gabut",
+          "path": "/Jojo",
           "headers": {
             "Host": ""
           }
@@ -243,7 +243,7 @@ cat> /etc/v2ray/vless.json << END
           ]
         },
         "wsSettings": {
-          "path": "/geo",
+          "path": "/Jojo",
           "headers": {
             "Host": ""
           }
@@ -330,7 +330,7 @@ cat> /etc/v2ray/vnone.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/YakkoXCode",
+          "path": "/Jojo",
           "headers": {
             "Host": ""
           }
