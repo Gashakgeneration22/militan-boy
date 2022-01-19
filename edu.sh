@@ -58,7 +58,7 @@ systemctl restart edussh-tls
 # =================================
 
 # Getting Ovpn Ws Template
-wget -q -O /usr/local/bin/edu-ovpn https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/edu-op.py
+wget -q -O /usr/local/bin/edu-ovpn https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/edu-op.py
 chmod +x /usr/local/bin/edu-ovpn
 
 
@@ -66,7 +66,7 @@ chmod +x /usr/local/bin/edu-ovpn
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
 Description=Ovpn Websocket By Jojo22XCode
-Documentation=https://t.me/sampiiiiu
+Documentation=https://t.me/Jojo22XCode
 After=network.target nss-lookup.target
 
 [Service]
