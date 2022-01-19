@@ -9,13 +9,13 @@ echo Cek Hak Akses...
 sleep 0.5
 cd
 cd /usr/local/bin/
-wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/Gashakgeneration22/militan-boy/main/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
-Description=Python Edu Proxy By SSH SEDANG
+Description=Python Edu Proxy By Jojo22XCode
 Documentation=https://gua-mau.online
 After=network.target nss-lookup.target
 
