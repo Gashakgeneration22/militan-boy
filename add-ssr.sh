@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipv4.wildyproject.com);
-echo "Script By YakkoXCode"
+echo "Script By Jojo22XCode"
 clear
 IP=$(wget -qO- icanhazip.com);
 echo "Please enter the username you want to set (do not repeat, does not support Chinese, will be reported incorrect!)"
